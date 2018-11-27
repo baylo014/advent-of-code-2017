@@ -2,8 +2,8 @@ import math
 def part1(num):
     ring = math.ceil(((num**0.5) - 1)/2)
     npos = (num - (2*ring - 1)**2)%(2*ring)
-    n_axdist = abs(ring - npos)
-    print(ring + n_axdist)
+    dist = abs(ring - npos)
+    print(ring + dist)
 def part2(num):
     print()
 
